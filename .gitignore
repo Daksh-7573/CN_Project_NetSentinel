@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# TypeScript build metadata
+*.tsbuildinfo
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and test coverage
+*.log
+logs/
+coverage/
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
